@@ -1,9 +1,9 @@
 package com.test.jpaboard.repository;
 
-import com.test.jpaboard.entity.Board;
+import com.test.jpaboard.entity.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BoardRepository extends JpaRepository<Board, Integer> {
+public interface ArticleRepository extends JpaRepository<Article, Integer> {
 }
