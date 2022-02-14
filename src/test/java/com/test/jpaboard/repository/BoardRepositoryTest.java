@@ -16,7 +16,6 @@ public class BoardRepositoryTest {
 
     @Test
     public void insert() {
-
         String userId = "test01";
 
         Board board = Board.builder()
